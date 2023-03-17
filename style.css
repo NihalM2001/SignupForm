@@ -118,10 +118,10 @@ button:hover{
 
 input:invalid{
     border: 1px solid red;
-    background-color: rgb(245, 188, 188);
+    background-color: rgb(243, 217, 217);
 }
 
 input:valid{
     border: 1px solid green;
-    background-color: rgb(172, 252, 172);
+    background-color: rgb(194, 236, 194);
 }
