@@ -48,13 +48,14 @@ img{
     background-clip: content-box;
     box-shadow: 0 10px 15px 0 lightgray;
     margin-bottom: 3%;
-    
 }
 
 .description-box>div{
     padding: 1rem 1rem 0rem 2rem;
     font-family: 'Arvo', serif;
     font-size: xxx-large;
+    padding-top: 10%;
+    
 }
 
 label{
@@ -75,7 +76,6 @@ form{
 .elements{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5em;
 }
 
 .form-title{
