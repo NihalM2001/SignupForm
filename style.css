@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 10%;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -38,11 +38,11 @@ img{
 .info{
     width:60%;
     display: grid;
-    grid-template-rows: 30vh 50vh;
+    grid-template-rows: 35vh 50vh;
 }
 
 .description-box{
-    background: linear-gradient(to bottom,rgb(121, 118, 118),white);
+    background: #a4bbba;
     background-clip: content-box;
     
 }
@@ -98,14 +98,13 @@ div.login>div{
 
 input{
     width: 20vw;;
-    height: 3vh;
+    height: 4vh;
     border: 1px solid black;
-    border-radius: 3px;
 }
 
 button{
     border: none;
-    background-color: orange;
+    background-color: rgb(252, 181, 49);
     border-radius: 10px;
     height: 50px;
 }
@@ -124,4 +123,19 @@ input:invalid{
 input:valid{
     border: 1px solid green;
     background-color: rgb(194, 236, 194);
+}
+
+input:focus{
+    border: 1px solid rgb(58, 98, 185);
+    background-color: white;
+    outline: none;
+    scale: 1.1;
+    transition: 90ms;
+    box-shadow: 100px;
+}
+
+button:focus{
+    scale: 1.05;
+    outline: none;
+    transition: 90ms;
 }
