@@ -99,7 +99,7 @@ button,input{
 .login{
     margin-top: 2em;
     grid-row-start: 5;
-
+    font-family: 'Alata', sans-serif;
 }
 
 div.login>div{
