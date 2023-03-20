@@ -144,11 +144,9 @@ input:valid{
 
 input:focus{
     border: 1px solid rgb(58, 98, 185);
-    background-color: white;
     outline: none;
     scale: 1.1;
     transition: 90ms;
-    box-shadow: 100px;
 }
 
 button:focus{
