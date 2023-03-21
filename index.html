@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Sign Up</title>
+    <script src="./script.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -28,26 +29,30 @@
             <div class="form">
                 <div class="form-title"> Let's get on with it. All fields are mandatory. </div>
 
-                <form action="">
+                <form action="./script.js">
 
                     <div class="first-name elements">
                         <label for="first-name">First Name:</label>
                         <input type="text" name="firstname" id="first-name" minlength="2" maxlength="20" required>
+                        <span class="error"></span>
                     </div>
 
                     <div class="last-name elements left-elements">
                         <label for="last-name">Last Name:</label>
                         <input type="text" name="lastname" id="last-name" minlength="2" maxlength="20" required>
+                        <span class="error"></span>
                     </div>
 
                     <div class="email elements">
                         <label for="email">Email:</label>
                         <input type="email" name="email" id="email" autocomplete="email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder="eg. johndoe@gmail.com">
+                        <span class="error"></span>
                     </div>
 
                     <div class="phone-number elements left-elements">
                         <label for="phone-number">Phone Number:</label>
                         <input type="tel" name="phonenumber" id="phone-number" required pattern="[0-9]{10,12}" maxlength="10" minlength="10" placeholder="Enter your 10 digit phone number">
+                        <span class="error"></span>
                     </div>
 
                     <div class="password elements">
@@ -58,6 +63,7 @@
                     <div class="confirm-password elements left-elements">
                         <label for="password-validation">Confirm Password:</label>
                         <input type="password" name="confirm-password" id="password-validation" required>
+                        <span class="pass-error"></span>
                     </div>
                     
                     <div class="button">
