@@ -139,10 +139,15 @@ input:invalid{
     font-size: 1em;    
 }
 
-/*input:valid{
+.errorSpan{
+    border: 2px dashed red              !important;
+    background-color: rgb(243, 217, 217)                    !important;  
+}
+
+input:valid{
     border: 1px solid green;
     background-color: rgb(194, 236, 194);
-}*/
+}
 
 input:focus{
     border: 1px solid rgb(58, 98, 185);
@@ -157,7 +162,3 @@ button:focus{
     transition: 90ms;
 }
 
-.errorSpan{
-    border: 2px dashed red;
-    background-color: rgb(243, 217, 217);   
-}
