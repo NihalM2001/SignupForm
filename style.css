@@ -151,12 +151,18 @@ input:valid{
 
 input:focus{
     border: 2px solid rgb(58, 98, 185);
-    outline: none;
+    outline: none;  
 }
 
 button:focus{
     scale: 1.05;
     outline: none;
     transition: 90ms;
+}
+
+.pass-error{
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 2px;
+    color: red;
 }
 

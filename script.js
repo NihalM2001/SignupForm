@@ -10,7 +10,7 @@ function validation()
     if(password.value !== validate.value) 
     {
         console.log('hello');
-        errorIcon.innerHTML="passwords doesnt match!!";
+        errorIcon.innerHTML="Passwords does not match!!";
         validate.classList.add('errorSpan');
         /*
         validate.style.backgroundColor="#f3d9d9";
