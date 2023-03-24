@@ -124,7 +124,7 @@ a, a:visited{
 }
 
 button:hover{
-    scale: 1.2;
+    scale: 1.1;
     transition: 1s;
     transition-duration: 300ms;
 }
@@ -150,10 +150,8 @@ input:valid{
 }
 
 input:focus{
-    border: 1px solid rgb(58, 98, 185);
+    border: 2px solid rgb(58, 98, 185);
     outline: none;
-    scale: 1.1;
-    transition: 90ms;
 }
 
 button:focus{
