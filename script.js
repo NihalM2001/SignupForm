@@ -24,3 +24,4 @@ function validation()
         validate.classList.remove('errorSpan');
     }
 }
+
